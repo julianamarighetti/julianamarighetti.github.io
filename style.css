@@ -177,7 +177,7 @@ body {
   cursor: pointer;
 }
 .seccion_descripcion__imagen {
-  width: 300px;
+  width: 300;
   height: 300px;
   padding: 10px;
   padding-bottom: 50px;
@@ -198,7 +198,7 @@ transition: left 0.3s ease, right 0.3s ease, top 0.3s ease, bottom 0.3s ease,
 }
 
 .seccion_descripcion__imagen:hover,
-.seccion_descripcion__imagen.focus {
+.seccion_descripcion__imagen:focus {
   width: 100%;
   height: 100%;
   padding: 10px;
@@ -357,15 +357,14 @@ color: var(--color-primario);
   gap: 2rem;
 }
 .tarjeta {
-  max-width: 600px;
-  height: 300px;
+  max-width: 300px;
+  height: 200px;
   background-color: var(--fondo-primario-transparente);
   border-radius: 0.375rem;
   box-shadow: 0 0 8px var(--color-primario-transparente);
   position: relative; 
   overflow: hidden;
 transition: box-shadow 0.3s ease; 
-
 }
 .tarjeta__contenido {
 position: absolute;
@@ -411,7 +410,7 @@ transition: transform 0.3s ease-in;
 }
 
 .tarjeta:hover,
-.tarjeta.focus {
+.tarjeta:focus {
   box-shadow: 0px 0px 12px var(--fondo-secundario);
 }
 .tarjeta:hover > .tarjeta__imagen
